@@ -1,0 +1,44 @@
+div {
+  display: flex;
+  height: 500px;
+  margin: 80px 100px 10px;
+}
+
+header {
+  background: purple;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 10px 90px;
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+
+a {
+  background: cyan;
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+}
+
+.bigger {
+  width: 150px;
+}
+
+main {
+  background: yellow;
+  flex-grow: 3;
+}
+
+aside {
+  background: lime;
+  flex-grow: 1;
+}
+
+footer {
+  background: lightgrey;
+  height: 80px;
+  margin: 0 100px;
+}
